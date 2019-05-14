@@ -1,6 +1,5 @@
 pool:
   vmImage: 'ubuntu-16.04'
-  demands: maven
 
 - task: GitHubRelease@0
   inputs:
